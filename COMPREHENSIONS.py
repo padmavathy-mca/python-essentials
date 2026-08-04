@@ -31,30 +31,6 @@ print(*squares)
 
 #Transforming String to uppercase
 names = ['padma','surya','sanjay','sara']
-upper_names = [names.upper() for name in names]
-Traceback (most recent call last):
-  File "<pyshell#17>", line 1, in <module>
-    upper_names = [names.upper() for name in names]
-AttributeError: 'list' object has no attribute 'upper'
-upper_names = [name.upper() for name in names]
-print(upper_names)
-['PADMA', 'SURYA', 'SANJAY', 'SARA']
-
-
-#Transforming String to uppercase
-names = ['padma','surya','sanjay','sara']
-upper_names = [name.upper() for name in names]
-print(upper_names)
-['PADMA', 'SURYA', 'SANJAY', 'SARA']
-
-#Dictionary Comprehension
-#------------------------
-
-3
-
-
-#Transforming String to uppercase
-names = ['padma','surya','sanjay','sara']
 upper_names = [name.upper() for name in names]
 print(upper_names)
 ['PADMA', 'SURYA', 'SANJAY', 'SARA']
@@ -109,20 +85,6 @@ print(unique_chars)
 
 #like List comprehension but Memory Efficient - doesn't store all values at once
 #Uses parantheses
-
-#Generator of squares
-gen = (n**2 for x in range(1,11))
-print(gen) #prints generator object
-<generator object <genexpr> at 0x0000020B408C7E00>
-print(list(gen))
-[100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
-
-#Generator of squares
-gen = (n**2 for x in range(5))
-print(gen) #prints generator object
-<generator object <genexpr> at 0x0000020B409DBAC0>
-print(list(gen))
-[100, 100, 100, 100, 100]
 
 >>> #Generator of squares
 >>> gen = (n**2 for n in range(1,11))
