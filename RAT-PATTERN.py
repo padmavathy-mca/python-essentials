@@ -173,4 +173,27 @@ e d c b a
 e d c b 
 e d c 
 e d 
-e 
+e
+
+name = 'padma'
+for i in range(0,len(name)):
+    for j in range(0,i+1):
+        print(name[i],end='')
+    print()
+p
+a a
+d d d
+m m m m
+a a a a a
+
+for i in range(0,len(name)):
+    for j in range(0,i+1):
+        print(name[j],end='')
+    print()
+
+p
+p a
+p a d
+p a d m
+p a d m a
+
