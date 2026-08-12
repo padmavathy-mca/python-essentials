@@ -31,7 +31,7 @@ class Student(Person):
         return sum(self.__marks) / len(self.__marks) if self.__marks else 0
 
     def info(self):  #POLYMORPHISM
-        return f'Student {self.name} (Roll no:{self.roll} Age:{self.age} Avg:{self.avg()}'
+        return f'Student {self.name} Roll no:{self.roll} Age:{self.age} Avg:{self.avg()}'
 
 #INHERITANCE
 class Teacher(Person):
@@ -55,8 +55,8 @@ def main():
 
         if choice == '1':
             name = input('Enter student name: ')
-            age = int(input('Enter age: ')
-            roll = int(input('Enter roll number: ')
+            age = int(input('Enter age: '))
+            roll = int(input('Enter roll number: '))
 
             s = Student(name,age,roll)  #creates a student object 's'
 
@@ -74,7 +74,7 @@ def main():
             subject = input('Enter subject: ')
 
             people.append(Teacher(name,age,subject))  #create Teacher object and add it to the list
-            print('f Teacher {name} added!')
+            print(f'Teacher {name} added!')
 
         elif choice == '3':
             if not people:  #if people list is empty else list has items
@@ -92,7 +92,9 @@ def main():
         else:
             print('Invalid choice!')
     
-
+# Run the program
+if __name__ == "__main__":
+    main() 
     
 
     
