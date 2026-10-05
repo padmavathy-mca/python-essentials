@@ -10,8 +10,8 @@ projects you can read, run, break, and rebuild.
 
 ## What's inside
 
-| Topic | What you'll learn | Mini Project | Status |
-|---|---|---|---|
+| Topic | What you'll learn | Mini Project |
+|---|---|---|
 | Basics & Syntax | Variables, types, operators, I/O | Number guessing game 
 | Control Flow | `if/else`, `for`, `while`, `break/continue` | FizzBuzz, prime checker 
 | Functions | Arguments, `*args/**kwargs`, scope, lambda | Utility toolkit 
